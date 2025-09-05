@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    // Identificadores _id
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+
+    // Console.log
+    "no-console": ["warn", { "allow": ["log"] }],
+
+    // Saltos de línea
+    "linebreak-style": "off",
+
+    // Ignorar el parámetro `next` en funciones no usadas
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^next$" }]
+  }
+}
