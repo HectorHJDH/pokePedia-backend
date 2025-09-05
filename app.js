@@ -19,8 +19,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://hectorvmbootcamp.chickenkiller.com",
-      "https://www.hectorvmbootcamp.chickenkiller.com",
+      "https://hectorvmpokepedia.chickenkiller.com",
+      "https://www.hectorvmpokepedia.chickenkiller.com",
     ],
   })
 );
