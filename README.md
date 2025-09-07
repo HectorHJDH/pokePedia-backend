@@ -1,7 +1,5 @@
 # pokePedia-backend
 
-![Texto alternativo](./src/images/PokePedia-Logo.png)
-
 ## Descripción
 
 Proyecto 18 – Back End de mi pagina web para las llamadas principales de iniciar sesion y registrarse conectandose a la BD!
