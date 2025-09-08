@@ -14,7 +14,7 @@ const appendJsonLine = async (filePath, obj) => {
   try {
     await fs.promises.appendFile(filePath, line, "utf8");
   } catch (e) {
-    console.error("Logger append error:", e);
+    // console.error("Logger append error:", e);
   }
 };
 
